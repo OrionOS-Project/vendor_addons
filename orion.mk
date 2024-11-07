@@ -117,10 +117,15 @@ PRODUCT_PACKAGES += \
     FontEvoSansOverlay \
     FontEvolveSansOverlay \
     FontFifa2018Overlay \
+    FontFluidSansOverlay \
+    FontFreshLemonsOverlay \
+    FontFucekOverlay \
     FontGrandHotelOverlay \
     FontHarmonySansOverlay \
+    FontInterSourceOverlay \
     FontLatoOverlay \
     FontLinotteOverlay \
+    FontMiSansOverlay \
     FontNokiaPureOverlay \
     FontNothingDotHeadlineOverlay \
     FontNothingDotOverlay \
@@ -128,6 +133,7 @@ PRODUCT_PACKAGES += \
     FontOneUISansOverlay \
     FontOneplusSansOverlay \
     FontOneplusSlateOverlay \
+    FontOppoSansOverlay \
     FontOswaldOverlay \
     FontPlayOverlay \
     FontQuandoOverlay \
