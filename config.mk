@@ -31,11 +31,115 @@ PRODUCT_PACKAGES += \
 
 # Fonts
 PRODUCT_PACKAGES += \
-    FontRobotoFlexOverlay \
-    FontRobotoOverlay \
-    FontInterOverlay \
     FontFucekOverlay \
+<<<<<<< HEAD
     FontExtFontOverlay
+=======
+    FontAtkinsonOverlay \
+    FontAltAtkinsonOverlay \
+    FontAuthenticSansOverlay \
+    FontBigNoodleOverlay \
+    FontBikoHankenOverlay \
+    FontComicNeueOverlay \
+    FontDecalotypeOverlay \
+    FontExo2Overlay \
+    FontFantasqueSansMonoOverlay \
+    FontFleuronOverlay \
+    FontFinlandicaOverlay \
+    FontGothamonoOverlay \
+    FontGravityOverlay \
+    FontIgnazioTextOverlay \
+    FontInterOverlay \
+    FontJakartaPlusOverlay \
+    FontLeagueMonoNarrowOverlay \
+    FontLeonSansOverlay \
+    FontLumieOverlay \
+    FontMesclaOverlay \
+    FontMilimetreOverlay \
+    FontMittelschriftOverlay \
+    FontNowOverlay \
+    FontOpenSauceOverlay \
+    FontPanamericanaOverlay \
+    FontPisselOverlay \
+    FontPTSansMonoOverlay \
+    FontQTVagaRoundOverlay \
+    FontReemKufiOverlay \
+    FontRobotoOverlay \
+    FontRoundedGothicNarrowOverlay \
+    FontScientificaOverlay \
+    FontSofiaSansOverlay \
+    FontUniversalisRegOverlay \
+    FontVladivostokOverlay \
+    FontCircularStdOverlay \
+    FontBlazmaHyperwaveOverlay \
+    FontCardelinaOverlay \
+    FontCookieRunOverlay \
+    FontGemsbuckPunkMonoObliqueOverlay \
+    FontGiganticFSHezaedrusOverlay \
+    FontJicaletaOverlay \
+    FontJustSansOverlay \
+    FontPunkMonoOverlay
+
+ifneq ($(filter theme_engine,$(TARGET_AX_FLAGS)),theme_engine)
+# Icon Packs
+PRODUCT_PACKAGES += \
+    IconPackCircularAndroidOverlay \
+    IconPackCircularSystemUIOverlay \
+    IconPackVictorAndroidOverlay \
+    IconPackVictorSystemUIOverlay \
+    IconPackSamAndroidOverlay \
+    IconPackSamSystemUIOverlay \
+    IconPackKaiAndroidOverlay \
+    IconPackKaiSystemUIOverlay \
+    IconPackFilledAndroidOverlay \
+    IconPackFilledSystemUIOverlay \
+    IconPackPUIAndroidOverlay \
+    IconPackPUISystemUIOverlay \
+    IconPackRoundedAndroidOverlay \
+    IconPackRoundedSystemUIOverlay \
+    IconPackNostalgicAndroidOverlay \
+    IconPackNostalgicSystemUIOverlay \
+    IconPackOOSAndroidOverlay \
+    IconPackOOSSystemUIOverlay \
+    IconPackOutlineAndroidOverlay \
+    IconPackOutlineSystemUIOverlay \
+    IconPackAcherusAndroidOverlay \
+    IconPackAcherusSystemUIOverlay \
+    IconPackAuroraAndroidOverlay \
+    IconPackAuroraSystemUIOverlay \
+    IconPackGradiconAndroidOverlay \
+    IconPackGradiconSystemUIOverlay \
+    IconPackLornAndroidOverlay \
+    IconPackLornSystemUIOverlay \
+    IconPackPlumpySystemUIOverlay \
+    IconPackPlumpyAndroidOverlay \
+    IconPackXperiaAndroidOverlay \
+    IconPackXperiaSystemUIOverlay
+
+# Icon Shapes
+PRODUCT_PACKAGES += \
+    IconShapeCloudyOverlay \
+    IconShapeCylinderOverlay \
+    IconShapeFlowerOverlay \
+    IconShapeHeartOverlay \
+    IconShapeHexagonOverlay \
+    IconShapeIosOverlay \
+    IconShapeLeafOverlay \
+    IconShapeMeowOverlay \
+    IconShapePebbleOverlay \
+    IconShapeRoundedHexagonOverlay \
+    IconShapeRoundedRectOverlay \
+    IconShapeSamsungOverlay \
+    IconShapeScrollOverlay \
+    IconShapeStretchedOverlay \
+    IconShapeSquareOverlay \
+    IconShapeSquircleOverlay \
+    IconShapeStretchedOverlay \
+    IconShapeTaperedRectOverlay \
+    IconShapeTeardropOverlay \
+    IconShapeVesselOverlay
+endif
+>>>>>>> 4f1305c7 (addons: Add more fonts)
 
 PRODUCT_PACKAGES += \
     fonts_customization.xml 
