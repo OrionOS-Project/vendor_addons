@@ -31,11 +31,51 @@ PRODUCT_PACKAGES += \
 
 # Fonts
 PRODUCT_PACKAGES += \
-    FontRobotoFlexOverlay \
-    FontRobotoOverlay \
-    FontInterOverlay \
     FontFucekOverlay \
-    FontGoogleSansOverlay
+    FontAtkinsonOverlay \
+    FontAltAtkinsonOverlay \
+    FontAuthenticSansOverlay \
+    FontBigNoodleOverlay \
+    FontBikoHankenOverlay \
+    FontComicNeueOverlay \
+    FontDecalotypeOverlay \
+    FontExo2Overlay \
+    FontFantasqueSansMonoOverlay \
+    FontFleuronOverlay \
+    FontFinlandicaOverlay \
+    FontGothamonoOverlay \
+    FontGravityOverlay \
+    FontIgnazioTextOverlay \
+    FontInterOverlay \
+    FontJakartaPlusOverlay \
+    FontLeagueMonoNarrowOverlay \
+    FontLeonSansOverlay \
+    FontLumieOverlay \
+    FontMesclaOverlay \
+    FontMilimetreOverlay \
+    FontMittelschriftOverlay \
+    FontNowOverlay \
+    FontOpenSauceOverlay \
+    FontPanamericanaOverlay \
+    FontPisselOverlay \
+    FontPTSansMonoOverlay \
+    FontQTVagaRoundOverlay \
+    FontReemKufiOverlay \
+    FontRobotoOverlay \
+    FontRoundedGothicNarrowOverlay \
+    FontScientificaOverlay \
+    FontSofiaSansOverlay \
+    FontUniversalisRegOverlay \
+    FontVladivostokOverlay \
+    FontCircularStdOverlay \
+    FontBlazmaHyperwaveOverlay \
+    FontCardelinaOverlay \
+    FontCookieRunOverlay \
+    FontGemsbuckPunkMonoObliqueOverlay \
+    FontGiganticFSHezaedrusOverlay \
+    FontJicaletaOverlay \
+    FontJustSansOverlay \
+    FontPunkMonoOverlay
 
 ifneq ($(filter theme_engine,$(TARGET_AX_FLAGS)),theme_engine)
 # Icon Packs
