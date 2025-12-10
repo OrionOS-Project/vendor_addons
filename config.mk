@@ -32,9 +32,6 @@ PRODUCT_PACKAGES += \
 # Fonts
 PRODUCT_PACKAGES += \
     FontFucekOverlay \
-<<<<<<< HEAD
-    FontExtFontOverlay
-=======
     FontAtkinsonOverlay \
     FontAltAtkinsonOverlay \
     FontAuthenticSansOverlay \
@@ -81,41 +78,6 @@ PRODUCT_PACKAGES += \
     FontPunkMonoOverlay
 
 ifneq ($(filter theme_engine,$(TARGET_AX_FLAGS)),theme_engine)
-# Icon Packs
-PRODUCT_PACKAGES += \
-    IconPackCircularAndroidOverlay \
-    IconPackCircularSystemUIOverlay \
-    IconPackVictorAndroidOverlay \
-    IconPackVictorSystemUIOverlay \
-    IconPackSamAndroidOverlay \
-    IconPackSamSystemUIOverlay \
-    IconPackKaiAndroidOverlay \
-    IconPackKaiSystemUIOverlay \
-    IconPackFilledAndroidOverlay \
-    IconPackFilledSystemUIOverlay \
-    IconPackPUIAndroidOverlay \
-    IconPackPUISystemUIOverlay \
-    IconPackRoundedAndroidOverlay \
-    IconPackRoundedSystemUIOverlay \
-    IconPackNostalgicAndroidOverlay \
-    IconPackNostalgicSystemUIOverlay \
-    IconPackOOSAndroidOverlay \
-    IconPackOOSSystemUIOverlay \
-    IconPackOutlineAndroidOverlay \
-    IconPackOutlineSystemUIOverlay \
-    IconPackAcherusAndroidOverlay \
-    IconPackAcherusSystemUIOverlay \
-    IconPackAuroraAndroidOverlay \
-    IconPackAuroraSystemUIOverlay \
-    IconPackGradiconAndroidOverlay \
-    IconPackGradiconSystemUIOverlay \
-    IconPackLornAndroidOverlay \
-    IconPackLornSystemUIOverlay \
-    IconPackPlumpySystemUIOverlay \
-    IconPackPlumpyAndroidOverlay \
-    IconPackXperiaAndroidOverlay \
-    IconPackXperiaSystemUIOverlay
-
 # Icon Shapes
 PRODUCT_PACKAGES += \
     IconShapeCloudyOverlay \
@@ -139,7 +101,6 @@ PRODUCT_PACKAGES += \
     IconShapeTeardropOverlay \
     IconShapeVesselOverlay
 endif
->>>>>>> 4f1305c7 (addons: Add more fonts)
 
 PRODUCT_PACKAGES += \
     fonts_customization.xml 
